@@ -165,11 +165,11 @@ class Menu {
       return reportError("Missing arguments, expected 3.");
     }
 
-    if (Number.isNaN(args[0])) {
+    if (isNaN(args[0])) {
       return reportError(`Expected number, recieved ${args[0]}`);
     }
 
-    if (Number.isNaN(args[1])) {
+    if (isNaN(args[1])) {
       return reportError(`Expected number, recieved ${args[1]}`);
     }
 
